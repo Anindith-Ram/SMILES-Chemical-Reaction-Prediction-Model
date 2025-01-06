@@ -43,7 +43,7 @@ Install the necessary dependencies:
 ```bash
 pip install -r requirements.txt
 
-### **Repository Structure**
+## **Repository Structure**
 src/
 ├── __init__.py               # Makes src a package
 ├── model.py                  # Model architecture

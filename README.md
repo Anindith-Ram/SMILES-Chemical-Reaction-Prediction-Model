@@ -12,7 +12,6 @@ This repository contains the code and resources for training and evaluating a tr
 - [Dataset](#dataset)
 - [Pretrained Model](#pretrained-model)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -42,3 +41,60 @@ This repository contains the code and resources for training and evaluating a tr
 Install the necessary dependencies:
 ```bash
 pip install -r requirements.txt
+
+### **Repository Structure**
+src/
+├── __init__.py               # Makes src a package
+├── model.py                  # Model architecture
+├── data_processing.py        # Data preprocessing utilities
+├── train.py                  # Training script
+├── utils.py                  # Additional helper functions
+models/                       # Folder to store trained models
+README.md                     # Project documentation
+requirements.txt              # Python dependencies
+
+---
+
+## **Usage**
+1. **Preprocess Data**
+   Run the `data_processing.py` script to preprocess the SMILES dataset: python src/data_processing.py
+
+2. **Train the Model**
+Use the `train.py` script to train the model: python src/train.py
+
+
+3. **Evaluate the Model**
+Evaluate the trained model using the metrics provided in the script.
+
+---
+
+## **Dataset**
+The project uses the **USPTO-50K** dataset for reaction prediction. A sample of this dataset is located in `data/`.
+Download the full dataset at paperswithcode.com/dataset/uspto-50k
+
+---
+
+## **Pretrained Model**
+Download the pretrained model:
+- [Google Drive Link](#) (drive.google.com/file/d/1GJmqMhXb4y5wTRmntxN7XrhWJU__06Aw/view?usp=sharing)
+
+---
+
+## **Results**
+| Metric        | Training | Validation |
+|---------------|----------|------------|
+| Loss          | 0.037    | 0.001      |
+| Accuracy      | 99.54%   | 99.99%     |
+| F1-Score      | 90.64%   | 99.31%     |
+
+---
+
+## **License**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## **Acknowledgments**
+- **ChemBERTa** by Seyone Chithrananda et al.
+- USPTO-50K dataset.
+- RDKit for chemical informatics tools.

@@ -43,7 +43,7 @@ Install the necessary dependencies:
 ```bash
 pip install -r requirements.txt
 
-## **Repository Structure**
+### **Repository Structure**
 src/
 ├── __init__.py               # Makes src a package
 ├── model.py                  # Model architecture
@@ -58,7 +58,7 @@ requirements.txt              # Python dependencies
 
 ### **Usage**
 1. **Preprocess Data**
-   Run the `data_processing.py` script to preprocess the SMILES dataset: python src/data_processing.py
+Run the `data_processing.py` script to preprocess the SMILES dataset: python src/data_processing.py
 
 2. **Train the Model**
 Use the `train.py` script to train the model: python src/train.py

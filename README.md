@@ -40,7 +40,6 @@ This repository contains the code and resources for training and evaluating a tr
 
 ### **Requirements**
 Install the necessary dependencies:
-```bash
 pip install -r requirements.txt
 
 ### **Repository Structure**

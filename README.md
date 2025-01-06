@@ -55,7 +55,7 @@ requirements.txt              # Python dependencies
 
 ---
 
-## **Usage**
+### **Usage**
 1. **Preprocess Data**
    Run the `data_processing.py` script to preprocess the SMILES dataset: python src/data_processing.py
 
@@ -68,13 +68,13 @@ Evaluate the trained model using the metrics provided in the script.
 
 ---
 
-## **Dataset**
+### **Dataset**
 The project uses the **USPTO-50K** dataset for reaction prediction. A sample of this dataset is located in `data/`.
 Download the full dataset at paperswithcode.com/dataset/uspto-50k
 
 ---
 
-## **Pretrained Model**
+### **Pretrained Model**
 Download the pretrained model:
 - [Google Drive Link](#) (drive.google.com/file/d/1GJmqMhXb4y5wTRmntxN7XrhWJU__06Aw/view?usp=sharing)
 

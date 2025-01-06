@@ -37,6 +37,7 @@ This repository contains the code and resources for training and evaluating a tr
 ---
 
 ## **Setup**
+
 ### **Requirements**
 Install the necessary dependencies:
 ```bash

@@ -78,7 +78,7 @@ Place the dataset in the `data/` directory.
 ### **Pretrained Model**
 Download the pretrained model:
 - [Google Drive Link](drive.google.com/file/d/1GJmqMhXb4y5wTRmntxN7XrhWJU__06Aw/view?usp=sharing)
-Place the downloaded model in the `models/` directory in the root of the repository:
+- Place the downloaded model in the `models/` directory in the root of the repository:
 models/
 └── best_model.pth
 

@@ -45,21 +45,21 @@ pip install -r requirements.txt
 ### **Repository Structure**
 src/
 
-├── __init__.py               # Makes src a package
+├── __init__.py               #Makes src a package
 
-├── model.py                  # Model architecture
+├── model.py                  #Model architecture
 
-├── data_processing.py        # Data preprocessing utilities
+├── data_processing.py        #Data preprocessing utilities
 
-├── train.py                  # Training script
+├── train.py                  #Training script
 
-├── utils.py                  # Additional helper functions
+├── utils.py                  #Additional helper functions
 
-models/                       # Folder to store trained models
+models/                       #Folder to store trained models
 
-README.md                     # Project documentation
+README.md                     #Project documentation
 
-requirements.txt              # Python dependencies
+requirements.txt              #Python dependencies
 
 ---
 

@@ -70,13 +70,17 @@ Evaluate the trained model using the metrics provided in the script.
 
 ### **Dataset**
 The project uses the **USPTO-50K** dataset for reaction prediction. A sample of this dataset is located in `data/`.
-Download the full dataset at paperswithcode.com/dataset/uspto-50k
+Download the full dataset from [Papers with Code](https://paperswithcode.com/dataset/uspto-50k).
+Place the dataset in the `data/` directory.
 
 ---
 
 ### **Pretrained Model**
 Download the pretrained model:
-- [Google Drive Link](#) (drive.google.com/file/d/1GJmqMhXb4y5wTRmntxN7XrhWJU__06Aw/view?usp=sharing)
+- [Google Drive Link](drive.google.com/file/d/1GJmqMhXb4y5wTRmntxN7XrhWJU__06Aw/view?usp=sharing)
+Place the downloaded model in the `models/` directory in the root of the repository:
+models/
+└── best_model.pth
 
 ---
 
@@ -95,6 +99,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ## **Acknowledgments**
-- **ChemBERTa** by Seyone Chithrananda et al.
+- [RDKit](https://www.rdkit.org/) for chemical informatics tools.
+- [ChemBERTa](https://github.com/seyonechithrananda/bert-loves-chemistry) for pre-trained embeddings.
 - USPTO-50K dataset.
-- RDKit for chemical informatics tools.

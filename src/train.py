@@ -1,6 +1,9 @@
 import torch
-import os
+from torch.amp import autocast, GradScaler
+import torch.nn as nn
+from tqdm import tqdm
 import matplotlib.pyplot as plt
+from sklearn.metrics import precision_score, recall_score, f1_score
 
 # Early stopping function
 def early_stopping(val_loss, best_loss, patience_counter, patience):

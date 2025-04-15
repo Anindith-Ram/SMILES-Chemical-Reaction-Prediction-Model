@@ -90,15 +90,6 @@ Download the pretrained model:
 
 ---
 
-## **Results**
-| Metric        | Training | Validation |
-|---------------|----------|------------|
-| Loss          | 0.037    | 0.001      |
-| Accuracy      | 99.54%   | 99.99%     |
-| F1-Score      | 90.64%   | 99.31%     |
-
----
-
 ## **License**
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
